@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="14730" started-at="2018-11-22T09:09:52Z" finished-at="2018-11-22T09:10:07Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="14730" started-at="2018-11-22T09:09:52Z" finished-at="2018-11-22T09:10:07Z">
+      <class name="com.magic.apexwebQA.web.AbstractWebTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.magic.apexwebQA.web.AbstractWebTest@54a097cc]" name="beforeSuite" is-config="true" duration-ms="17836" started-at="2018-11-22T09:09:34Z" finished-at="2018-11-22T09:09:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.magic.apexwebQA.web.AbstractWebTest@54a097cc]" name="generateReport" is-config="true" duration-ms="5908" started-at="2018-11-22T09:10:07Z" finished-at="2018-11-22T09:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.magic.apexwebQA.web.AbstractWebTest -->
+      <class name="com.magic.apexwebQA.web.tests.LoginTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.magic.apexwebQA.web.tests.LoginTest@36f6e879]" name="loginTest" duration-ms="14708" started-at="2018-11-22T09:09:52Z" finished-at="2018-11-22T09:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.magic.apexwebQA.web.tests.LoginTest@36f6e879]" name="afterMethod" is-config="true" duration-ms="4" started-at="2018-11-22T09:10:07Z" finished-at="2018-11-22T09:10:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:com.magic.apexwebQA.web.tests.LoginTest@36f6e879] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.magic.apexwebQA.web.tests.LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
