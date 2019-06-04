@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.magic.web.tests.FailTest">
+      <class name="com.magic.web.tests.JDBCTestDemo">
         <methods>
-          <include name="failTest"/>
-          <include name="beforeSuite"/>
+          <include name="ToFetchAllTableNameFromDB"/>
+          <include name="CreateSQLConnection"/>
         </methods>
-      </class> <!-- com.magic.web.tests.FailTest -->
+      </class> <!-- com.magic.web.tests.JDBCTestDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

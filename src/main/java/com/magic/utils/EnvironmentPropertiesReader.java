@@ -17,7 +17,7 @@ public class EnvironmentPropertiesReader {
 		properties = PropertiesFile();		
 	}
 	public Properties PropertiesFile() {
-		File file = new File(System.getProperty("user.dir)" + "/src/main/java/com/magic/Config/Config.properties"));
+		File file = new File(System.getProperty("user.dir") + "/src/main/java/com/magic/Config/Config.properties");
 		FileInputStream fileInput = null;
 		Properties props = new Properties();
 		try {

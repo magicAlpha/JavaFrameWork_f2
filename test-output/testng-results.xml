@@ -1,84 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="0" total="2" passed="2">
-=======
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
->>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-<<<<<<< HEAD
-  <suite name="Suite" duration-ms="16797" started-at="2019-06-04T08:05:06Z" finished-at="2019-06-04T08:05:23Z">
-=======
-  <suite name="Default suite" duration-ms="40002" started-at="2019-06-04T10:35:09Z" finished-at="2019-06-04T10:35:49Z">
->>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
+  <suite name="Default suite" duration-ms="442" started-at="2019-06-04T12:48:00Z" finished-at="2019-06-04T12:48:00Z">
     <groups>
     </groups>
-<<<<<<< HEAD
-    <test name="Test" duration-ms="16797" started-at="2019-06-04T08:05:06Z" finished-at="2019-06-04T08:05:23Z">
-      <class name="com.magic.web.tests.LoginTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02]" name="beforeSuite" is-config="true" duration-ms="5537" started-at="2019-06-04T13:35:00Z" finished-at="2019-06-04T13:35:06Z">
-=======
-    <test name="Default test" duration-ms="40002" started-at="2019-06-04T10:35:09Z" finished-at="2019-06-04T10:35:49Z">
-      <class name="com.magic.web.tests.DateClick">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.magic.web.tests.DateClick@42e26948]" name="OpenBrowser" is-config="true" duration-ms="38736" started-at="2019-06-04T10:35:09Z" finished-at="2019-06-04T10:35:47Z">
->>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
+    <test name="Default test" duration-ms="442" started-at="2019-06-04T12:48:00Z" finished-at="2019-06-04T12:48:00Z">
+      <class name="com.magic.web.tests.JDBCTestDemo">
+        <test-method status="PASS" signature="CreateSQLConnection()[pri:0, instance:com.magic.web.tests.JDBCTestDemo@91161c7]" name="CreateSQLConnection" is-config="true" duration-ms="366" started-at="2019-06-04T18:18:00Z" finished-at="2019-06-04T18:18:00Z">
           <reporter-output>
           </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02]" name="loginTest" duration-ms="10929" started-at="2019-06-04T13:35:06Z" finished-at="2019-06-04T13:35:17Z">
-=======
-        </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="ClickOnDate()[pri:0, instance:com.magic.web.tests.DateClick@42e26948]" name="ClickOnDate" duration-ms="560" started-at="2019-06-04T10:35:47Z" finished-at="2019-06-04T10:35:48Z">
->>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
+        </test-method> <!-- CreateSQLConnection -->
+        <test-method status="PASS" signature="ToFetchAllTableNameFromDB()[pri:1, instance:com.magic.web.tests.JDBCTestDemo@91161c7]" name="ToFetchAllTableNameFromDB" duration-ms="66" started-at="2019-06-04T18:18:00Z" finished-at="2019-06-04T18:18:00Z">
           <reporter-output>
           </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02]" name="afterMethod" is-config="true" duration-ms="4" started-at="2019-06-04T13:35:17Z" finished-at="2019-06-04T13:35:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=LoginTest.loginTest()[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02] output={null}]]]>
-              </value>
-            </param>
-          </params>
-=======
-        </test-method> <!-- ClickOnDate -->
-        <test-method status="PASS" signature="KillingBrowser()[pri:0, instance:com.magic.web.tests.DateClick@42e26948]" name="KillingBrowser" is-config="true" duration-ms="678" started-at="2019-06-04T10:35:48Z" finished-at="2019-06-04T10:35:49Z">
->>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
+        </test-method> <!-- ToFetchAllTableNameFromDB -->
+        <test-method status="PASS" signature="CloseConnection()[pri:0, instance:com.magic.web.tests.JDBCTestDemo@91161c7]" name="CloseConnection" is-config="true" duration-ms="0" started-at="2019-06-04T18:18:00Z" finished-at="2019-06-04T18:18:00Z">
           <reporter-output>
           </reporter-output>
-<<<<<<< HEAD
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02]" name="generateReport" is-config="true" duration-ms="6596" started-at="2019-06-04T13:35:23Z" finished-at="2019-06-04T13:35:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateReport -->
-      </class> <!-- com.magic.web.tests.LoginTest -->
-      <class name="com.magic.web.tests.HotelBookingTest">
-        <test-method status="PASS" signature="searchHotelTest()[pri:1, instance:com.magic.web.tests.HotelBookingTest@6093dd95]" name="searchHotelTest" duration-ms="5851" started-at="2019-06-04T13:35:17Z" finished-at="2019-06-04T13:35:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchHotelTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.magic.web.tests.HotelBookingTest@6093dd95]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-04T13:35:23Z" finished-at="2019-06-04T13:35:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=searchHotelTest status=SUCCESS method=HotelBookingTest.searchHotelTest()[pri:1, instance:com.magic.web.tests.HotelBookingTest@6093dd95] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- com.magic.web.tests.HotelBookingTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
-=======
-        </test-method> <!-- KillingBrowser -->
-      </class> <!-- com.magic.web.tests.DateClick -->
+        </test-method> <!-- CloseConnection -->
+      </class> <!-- com.magic.web.tests.JDBCTestDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
->>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
 </testng-results>
