@@ -1,5 +1,6 @@
 com\magic\pages\LoginPage.class
 com\magic\utils\SeleniumUtil.class
+com\magic\utils\FilloUtil.class
 com\magic\utils\SendEmailUtil.class
 com\magic\utils\GenericUtil.class
 com\magic\utils\SendEmailUtil$1.class

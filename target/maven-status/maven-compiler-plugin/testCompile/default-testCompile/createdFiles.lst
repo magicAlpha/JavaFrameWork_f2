@@ -1,3 +1,4 @@
+com\magic\web\tests\DateClick.class
 com\magic\web\RunnableMain.class
 com\magic\web\TestBase.class
 com\magic\web\tests\LoginTest.class

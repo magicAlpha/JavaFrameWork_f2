@@ -13,8 +13,9 @@ public class FilloUtil {
 		//String strQuery="Select * from Sheet1 where SR=1";
 		//String strQuery="INSERT INTO Sheet1(SR,Name,Course) VALUES(6,'Parker','Jython')";
 		//String strQuery="Update Sheet1 Set Country='US' where ID=100 and name='John'";
-		String delete="delete from Sheet1 where SR=6";
-		InsertOrUpdateData(path, delete);
+		//String delete="delete from Sheet1 where SR=6";
+		//InsertOrUpdateData(path, delete);
+		GetDataHashMap(path);
 	}
 	
 	
@@ -40,10 +41,12 @@ public class FilloUtil {
 	}
 	
 	
-	public static void GetDataHashMap(String path,String strQuery) throws FilloException{
+	public static void GetDataHashMap(String path) throws FilloException{
 		Fillo fillo=new Fillo();
 		Connection connection=fillo.getConnection(path);
-		connection.executeUpdate(strQuery);
+		String strQuery1="Select * from Sheet2";
+		connection.executeUpdate(strQuery1);
+		
 		connection.close();
 	}
 	

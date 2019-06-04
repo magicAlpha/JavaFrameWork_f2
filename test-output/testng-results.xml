@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results skipped="0" failed="0" total="2" passed="2">
+=======
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+>>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Suite" duration-ms="16797" started-at="2019-06-04T08:05:06Z" finished-at="2019-06-04T08:05:23Z">
+=======
+  <suite name="Default suite" duration-ms="40002" started-at="2019-06-04T10:35:09Z" finished-at="2019-06-04T10:35:49Z">
+>>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test name="Test" duration-ms="16797" started-at="2019-06-04T08:05:06Z" finished-at="2019-06-04T08:05:23Z">
       <class name="com.magic.web.tests.LoginTest">
         <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02]" name="beforeSuite" is-config="true" duration-ms="5537" started-at="2019-06-04T13:35:00Z" finished-at="2019-06-04T13:35:06Z">
+=======
+    <test name="Default test" duration-ms="40002" started-at="2019-06-04T10:35:09Z" finished-at="2019-06-04T10:35:49Z">
+      <class name="com.magic.web.tests.DateClick">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.magic.web.tests.DateClick@42e26948]" name="OpenBrowser" is-config="true" duration-ms="38736" started-at="2019-06-04T10:35:09Z" finished-at="2019-06-04T10:35:47Z">
+>>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- beforeSuite -->
         <test-method status="PASS" signature="loginTest()[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02]" name="loginTest" duration-ms="10929" started-at="2019-06-04T13:35:06Z" finished-at="2019-06-04T13:35:17Z">
+=======
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="ClickOnDate()[pri:0, instance:com.magic.web.tests.DateClick@42e26948]" name="ClickOnDate" duration-ms="560" started-at="2019-06-04T10:35:47Z" finished-at="2019-06-04T10:35:48Z">
+>>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- loginTest -->
         <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02]" name="afterMethod" is-config="true" duration-ms="4" started-at="2019-06-04T13:35:17Z" finished-at="2019-06-04T13:35:17Z">
           <params>
@@ -23,8 +43,13 @@
               </value>
             </param>
           </params>
+=======
+        </test-method> <!-- ClickOnDate -->
+        <test-method status="PASS" signature="KillingBrowser()[pri:0, instance:com.magic.web.tests.DateClick@42e26948]" name="KillingBrowser" is-config="true" duration-ms="678" started-at="2019-06-04T10:35:48Z" finished-at="2019-06-04T10:35:49Z">
+>>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- afterMethod -->
         <test-method status="PASS" signature="generateReport()[pri:0, instance:com.magic.web.tests.LoginTest@6d4b1c02]" name="generateReport" is-config="true" duration-ms="6596" started-at="2019-06-04T13:35:23Z" finished-at="2019-06-04T13:35:29Z">
           <reporter-output>
@@ -50,4 +75,10 @@
       </class> <!-- com.magic.web.tests.HotelBookingTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
+=======
+        </test-method> <!-- KillingBrowser -->
+      </class> <!-- com.magic.web.tests.DateClick -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+>>>>>>> branch 'master' of https://github.com/magicAlpha/JavaFrameWork_f2.git
 </testng-results>
