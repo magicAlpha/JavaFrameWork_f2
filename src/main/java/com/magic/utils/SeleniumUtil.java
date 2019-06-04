@@ -179,7 +179,7 @@ public class SeleniumUtil {
 
 	public static ArrayList getfileNamesFromFolder(String path) {
 
-		ArrayList listOfFilesArray = new ArrayList<>();
+		ArrayList listOfFilesArray = new ArrayList();
 
 		File folder = new File(path);
 		File[] listOfFiles = folder.listFiles();

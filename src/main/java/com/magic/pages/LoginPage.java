@@ -36,7 +36,7 @@ public class LoginPage {
 		SeleniumUtil.waitForElementVisibility(driver, DISMISS_COOKIE, WAIT_SECONDS).click();
 	}
 	
-	public void loginUser(String username, String password) throws InterruptedException {
+	public void loginUser(String username, String password) throws Exception {
 
 		//SeleniumUtil.turnOffImplicitWaits(driver);			
 		try {

@@ -1,0 +1,5 @@
+com\magic\web\RunnableMain.class
+com\magic\web\TestBase.class
+com\magic\web\tests\LoginTest.class
+com\magic\web\tests\FailTest.class
+com\magic\web\tests\HotelBookingTest.class

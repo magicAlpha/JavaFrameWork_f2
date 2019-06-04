@@ -17,7 +17,7 @@ public class LoginTest extends TestBase{
 	String expectedProfileName = SeleniumUtil.fetchUserDetails("PROFILENAME");
 	
 	@Test
-	public void loginTest() throws InterruptedException {
+	public void loginTest() throws Exception {
 		
 		test = extent.createTest("Login Verification","This test verify whether the user is able to login or not");
 		test.assignCategory("Login");
