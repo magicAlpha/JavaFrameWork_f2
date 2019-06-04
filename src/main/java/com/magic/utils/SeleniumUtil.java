@@ -145,14 +145,10 @@ public class SeleniumUtil {
 	}
 
 	public static void actionScrollToBottom(WebDriver driver) {
-
 		Actions actions = new Actions(driver);
-
 		for(int i=1;i<=100;i++) {
-
 			actions.sendKeys(Keys.PAGE_DOWN).perform();
 		}
-
 	}
 
 	public static void actionScrollToTop(WebDriver driver) {
@@ -167,13 +163,11 @@ public class SeleniumUtil {
 	}
 
 	public static void selectDropDownByValue(WebDriver driver, By locator, String value) {
-
 		Select dropdown = new Select(driver.findElement(locator));
 		dropdown.selectByValue(value);
 	}
 
 	public static void refreshPage(WebDriver driver) {
-
 		driver.navigate().refresh();
 	}
 

@@ -70,9 +70,7 @@ public class TestBase {
 		}else {
 			System.out.println("Invalid OS");
 		}
-
 		cap = ((RemoteWebDriver) driver).getCapabilities();
-
 		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(WAIT_SECONDS, TimeUnit.SECONDS);
 		driver.get(ENVIRONMENT);
